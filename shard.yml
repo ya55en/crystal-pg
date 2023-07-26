@@ -1,9 +1,9 @@
 name: pg
-version: 0.27.0
+version: 0.27.99
 
 dependencies:
   db:
     github: crystal-lang/crystal-db
-    version: ~> 0.12.0
+    branch: fix/max_idle_pool_size-race-condition
 
 crystal: ">= 1.0.0, < 2.0.0"
